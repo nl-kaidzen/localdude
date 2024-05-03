@@ -23,56 +23,12 @@ interface Feature {
 // - alt: The alt text of the image (if type is 'image')
 const features = [
   {
-    title: "Emails",
+    title: "Answer for your questions",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
+      "It's like a your best friend who always ready to help you. You can ask anything, and it will give you the best answer.",
     type: "video",
     path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
     format: "video/webm",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Payments",
-    description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
-    type: "image",
-    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    alt: "A computer",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Authentication",
-    description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -91,9 +47,45 @@ const features = [
     ),
   },
   {
-    title: "Style",
+    title: "Write an e-mail for everyone",
     description:
-      "Components, animations & sections (like this features section), 20+ themes with daisyUI, automatic dark mode",
+      "Do you need to make an appointment in a foreign language? Just ask LocalDude to do it! The tone of the email can also be customized.",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    alt: "A computer",
+    svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Translate your text",
+    description:
+      "Just paste the text you want to translate, and LocalDude will translate it for you. Specify the language just in a few clicks.",
+    svg: (
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" className="w-6 h-6">
+        <path
+          d="M4.70591 4.40371C4.42154 4.11934 3.96171 4.11934 3.68037 4.40371L1.01516 7.06589C0.730787 7.35026 0.730787 7.81009 1.01516 8.09144C1.29953 8.37278 1.75936 8.37581 2.0407 8.09144L3.46255 6.66959V12.1785C3.46255 13.6487 4.65448 14.8407 6.12474 14.8407H10.242C10.6444 14.8407 10.9681 14.517 10.9681 14.1146C10.9681 13.7123 10.6444 13.3886 10.242 13.3886H6.12776C5.45919 13.3886 4.91768 12.8471 4.91768 12.1785V6.66959L6.33953 8.09144C6.6239 8.37581 7.08373 8.37581 7.36507 8.09144C7.64642 7.80707 7.64944 7.34724 7.36507 7.06589L4.70591 4.40371ZM9.75801 5.16001C9.35566 5.16001 9.03196 5.48371 9.03196 5.88606C9.03196 6.28841 9.35566 6.61211 9.75801 6.61211H13.8723C14.5409 6.61211 15.0824 7.15362 15.0824 7.82219V13.3311L13.6605 11.9093C13.3762 11.6249 12.9163 11.6249 12.635 11.9093C12.3536 12.1936 12.3506 12.6535 12.635 12.9348L15.2972 15.597C15.5815 15.8814 16.0414 15.8814 16.3227 15.597L18.9849 12.9348C19.2693 12.6504 19.2693 12.1906 18.9849 11.9093C18.7005 11.6279 18.2407 11.6249 17.9594 11.9093L16.5375 13.3311V7.82219C16.5375 6.35194 15.3456 5.16001 13.8753 5.16001H9.75801Z"
+          />
+      </svg>
+
+    ),
+  },
+  {
+    title: "Set the tone of the answers yourself",
+    description:
+      "Do you want to get answers from your best friend or a boring uni professor? Choose your own and LocalDude will adjust.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -115,17 +107,17 @@ const features = [
 
 // An SEO-friendly accordion component including the title and a description (when clicked.)
 const Item = ({
-  feature,
-  isOpen,
-  setFeatureSelected,
-}: {
+                feature,
+                isOpen,
+                setFeatureSelected,
+              }: {
   index: number;
   feature: Feature;
   isOpen: boolean;
   setFeatureSelected: () => void;
 }) => {
   const accordion = useRef(null);
-  const { title, description, svg } = feature;
+  const {title, description, svg } = feature;
 
   return (
     <li>
@@ -216,9 +208,8 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          All you need to ship your startup fast
-          <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-            and get profitable
+          Only a few possibilities of
+          <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">Local DUDE
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">
