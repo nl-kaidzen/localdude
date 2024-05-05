@@ -29,11 +29,7 @@ const Hero = () => {
           Ask about taxes, renting prices, cost of living, fancy local restaurants or how to move to Germany
         </p>
         <ButtonLead></ButtonLead>
-        <button className="btn btn-primary btn-wide">
-          Get {config.appName}
-        </button>
-
-        <TestimonialsAvatars priority={true} />
+        {/*<TestimonialsAvatars priority={true} />*/}
       </div>
       <div className="lg:w-full">
         <Image

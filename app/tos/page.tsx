@@ -57,39 +57,36 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Effective Date: May 5, 2024
 
-Welcome to ShipFast!
+1. Acceptance of Terms
+By accessing and using the LocalDUDE website (https://localdude.me), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to all of these Terms, do not use this site.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+2. Service Description
+LocalDUDE is an AI-powered chatbot that assists users with executing tasks and finding answers quickly.
 
-1. Description of ShipFast
+3. User Accounts
+When purchasing a subscription, you are granted the right to use the LocalDUDE platform. The ownership of the account is non-transferable. You may not resell or redistribute your access to the service.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+4. Refunds
+You are entitled to a full refund of your subscription within 7 days of purchase if you are not satisfied with the service.
 
-2. Ownership and Usage Rights
+5. User Data
+We collect personal data such as your name, email, and payment information. For details on how we handle this information, please refer to our Privacy Policy at https://localdude.me/privacy-policy.
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+6. Non-Personal Data Collection
+We use cookies to improve your experience on our site. By using LocalDUDE, you consent to the use of these cookies.
 
-3. User Data and Privacy
+7. Governing Law
+These Terms shall be governed by and construed in accordance with the laws of Germany, without regard to its conflict of law provisions.
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+8. Changes to Terms
+We reserve the right to modify these Terms at any time. We will notify you of any changes by sending an email to the address associated with your account.
 
-4. Non-Personal Data Collection
+9. Contact Information
+If you have any questions about these Terms, please contact us at andy@mail.localdude.me.
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
-
-5. Governing Law
-
-These Terms are governed by the laws of France.
-
-6. Updates to the Terms
-
-We may update these Terms from time to time. Users will be notified of any changes via email.
-
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
-
-Thank you for using ShipFast!`}
+By using LocalDUDE, you acknowledge that you have read, understood, and agree to be bound by these Terms.`}
         </pre>
       </div>
     </main>

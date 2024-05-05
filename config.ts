@@ -6,7 +6,7 @@ const config = {
   appName: "LocalDUDE",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+    "AI powered relocation chatbot that helps you to perform your tasks or find answers faster.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "localdude.me",
   crisp: {
@@ -87,7 +87,7 @@ const config = {
   },
   mailgun: {
     // subdomain to use when sending emails, if you don't have a subdomain, just remove it. Highly recommended to have one (i.e. mg.yourdomain.com or mail.yourdomain.com)
-    subdomain: "mg",
+    subdomain: "mail",
     // REQUIRED — Email 'From' field to be used when sending magic login links
     fromNoReply: `LocalDUDE <noreply@mail.localdude.me>`,
     // REQUIRED — Email 'From' field to be used when sending other emails, like abandoned carts, updates etc..

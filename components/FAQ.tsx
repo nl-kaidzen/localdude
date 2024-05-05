@@ -3,8 +3,8 @@
 import { useRef, useState } from "react";
 import type { JSX } from "react";
 
-// <FAQ> component is a lsit of <Item> component
-// Just import the FAQ & add your FAQ content to the const faqList arrayy below.
+// <FAQ> component is a list of <Item> component
+// Just import the FAQ & add your FAQ content to the const faqList array below.
 
 interface FAQItemProps {
   question: string;
@@ -14,7 +14,22 @@ interface FAQItemProps {
 const faqList: FAQItemProps[] = [
   {
     question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    answer: <div className="space-y-2 leading-relaxed">
+      Once you subscribe to LocalDUDE, you will have access to the LocalDUDE web application.
+      You can ask questions and our AI expert will provide you with the most comprehensive and relevant answers.
+      All dialogs will be saved in the chat history.
+    </div>,
+  }, {
+    question: 'How can I get access to my account?',
+    answer: <p>You can Sign up or Sign in using Magic Link</p>
+  },
+  {
+    question: "What about limits?",
+    answer: (
+      <p>
+        We usually provide a basic limit of 100 questions per month. If you need more, you can always upgrade your plan.
+      </p>
+    ),
   },
   {
     question: "Can I get a refund?",
